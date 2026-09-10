@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "regions": {
+    "OCR_거래소_최판등액": {
+      "name": "OCR_거래소_최판등액",
+      "template_roi": "체크_거래소_최판등액_OCR",
+      "search_roi": "체크_거래소_최판등액",
+      "rel_x": 63,
+      "rel_y": -20,
+      "w": 65,
+      "h": 25,
+      "ocr_mode": "number",
+      "select_rule": "bottom_right",
+      "backend": "paddleocr",
+      "threshold": 0.85,
+      "quantity_position": "bottom_right_fixed",
+      "updated_at": "2026-09-01T23:16:56"
+    },
+    "OCR_거래소_마판액": {
+      "name": "OCR_거래소_마판액",
+      "template_roi": "체크_거래소_마판액_OCR",
+      "search_roi": "체크_거래소_마판액",
+      "rel_x": 81,
+      "rel_y": -15,
+      "w": 67,
+      "h": 21,
+      "ocr_mode": "number",
+      "select_rule": "bottom_right",
+      "backend": "paddleocr",
+      "threshold": 0.85,
+      "quantity_position": "bottom_right_fixed",
+      "updated_at": "2026-09-01T23:21:47"
+    },
+    "OCR_거래소_판매개수": {
+      "name": "OCR_거래소_판매개수",
+      "template_roi": "체크_거래소_판매개수_OCR",
+      "search_roi": "범위_거래소_판매개수",
+      "rel_x": 37,
+      "rel_y": -13,
+      "w": 71,
+      "h": 15,
+      "ocr_mode": "number",
+      "select_rule": "bottom_right",
+      "backend": "paddleocr",
+      "threshold": 0.85,
+      "quantity_position": "bottom_right_fixed",
+      "updated_at": "2026-09-02T01:49:34"
+    },
+    "OCR_거래소_최판등액재료": {
+      "name": "OCR_거래소_최판등액재료",
+      "template_roi": "체크_거래소_최판등액재료_OCR",
+      "search_roi": "체크_거래소_최판등액재료",
+      "rel_x": 63,
+      "rel_y": -20,
+      "w": 65,
+      "h": 25,
+      "ocr_mode": "number",
+      "select_rule": "bottom_right",
+      "backend": "auto",
+      "threshold": 0.85,
+      "quantity_position": "bottom_right_fixed",
+      "updated_at": "2026-09-05T16:55:40"
+    }
+  },
+  "shared_quantity": {
+    "rel_x": 63,
+    "rel_y": -20,
+    "w": 65,
+    "h": 25,
+    "ocr_mode": "number",
+    "select_rule": "bottom_right",
+    "backend": "auto",
+    "threshold": 0.85,
+    "quantity_position": "bottom_right_fixed",
+    "calibrated_from_template": "체크_거래소_최판등액재료_OCR",
+    "search_roi_default": "체크_거래소_최판등액재료",
+    "updated_at": "2026-09-05T16:55:40"
+  }
+}

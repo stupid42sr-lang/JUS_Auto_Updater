@@ -1,0 +1,932 @@
+{
+  "base_url": "https://raw.githubusercontent.com/stupid42sr-lang/JUS_Auto_Updater/main/resources/",
+  "files": {
+    "profiles/JUS/ocr_regions.json": {
+      "sha256": "cd52ff5250275b6e23a5a5766d392db561405e47fc52510e777317add64d9e35"
+    },
+    "profiles/JUS/roi.json": {
+      "sha256": "78f8fed29b9b129e2bbb233a52fa4981daac24df1417f6a5109724bb9ab60cd9"
+    },
+    "profiles/JUS/templates/HP_Bar.png": {
+      "sha256": "d4ead018157ead169c49e33a336994d79bf68131e60c1658b392212057d2a644"
+    },
+    "profiles/JUS/templates/버튼_AI_OFF.png": {
+      "sha256": "26b0fe6e562f6df66ca7355b3dfd9b0d940d5289fbb54210a317869250e3361d"
+    },
+    "profiles/JUS/templates/버튼_AI_ON.png": {
+      "sha256": "8d0285c811a93db3184b5da6559d2e856bb04884b05cb8ee29cd70cda5574196"
+    },
+    "profiles/JUS/templates/버튼_AI_시간표_활성.png": {
+      "sha256": "a4108dcc2626b76056bd8626e5c84ac57d9657c10dac11af74b2349be2b2d660"
+    },
+    "profiles/JUS/templates/버튼_AI_일정_활성.png": {
+      "sha256": "658aaa0df63ba50a61a3c55401e75349ca9a9078c2f64b86faf6c6e879a5549c"
+    },
+    "profiles/JUS/templates/버튼_AUTO_이미지.png": {
+      "sha256": "2772f85281a1faf3f31213b8c00c146c0a6219107ad0d30227da44245bddbabe"
+    },
+    "profiles/JUS/templates/버튼_X.png": {
+      "sha256": "0ea26ce7c958bcba602e95da9ac8cfb4ec0f66ace020ee93a0d7a66c55fdd9f3"
+    },
+    "profiles/JUS/templates/버튼_X_인벤.png": {
+      "sha256": "c65fba768693cea41a5a0ade3fa256ad312051a324b8c022cd6c2a43d742f4c0"
+    },
+    "profiles/JUS/templates/버튼_강화_5.png": {
+      "sha256": "5f8d805b9eb925b4c71d2f721456dad4261ae3264de51f1891b0eb15869d1e4e"
+    },
+    "profiles/JUS/templates/버튼_강화_5_mask.png": {
+      "sha256": "dc8da2476b58fed49c65dd3a889bec9fdf9ed3a8e73d24903b104c54def67c64"
+    },
+    "profiles/JUS/templates/버튼_강화_6.png": {
+      "sha256": "ab88b617c9b64ddf8856e04641fc4cebc58b9af53b9848484145835c8518da14"
+    },
+    "profiles/JUS/templates/버튼_강화_6_mask.png": {
+      "sha256": "b653a2fb76d000b91059d47721ac87b061f8ed318b88a3ea283680f66e970afb"
+    },
+    "profiles/JUS/templates/버튼_강화_강화실행.png": {
+      "sha256": "ecb0ddf228d9ac9af2e3200c73d52ea681a4a3c62a62c5f77cb451a98a64e62d"
+    },
+    "profiles/JUS/templates/버튼_강화_다중강화탭.png": {
+      "sha256": "c59255e82040d6e6ae8545a79e935d65e9fdd889ba193556b41bb29e13036b46"
+    },
+    "profiles/JUS/templates/버튼_강화_다중강화활성.png": {
+      "sha256": "c4bb32ab78828fe3d7143410e8038be924bc670297054d92af94d021a13c2ae2"
+    },
+    "profiles/JUS/templates/버튼_강화_무기탭.png": {
+      "sha256": "c1f8acbde58ebc0d3a941906d008964149526caeb1996846b6e84e7826bcf7f8"
+    },
+    "profiles/JUS/templates/버튼_강화_무기탭활성.png": {
+      "sha256": "06bfac16a81c9435b03e7d0753faefcbc2521f367948e71bc74774fdc4e32d01"
+    },
+    "profiles/JUS/templates/버튼_강화_방어구탭.png": {
+      "sha256": "bed777127315487d94e5e37654e3faa25ce9b2a48843516a757d68cef871e1b2"
+    },
+    "profiles/JUS/templates/버튼_강화_방어구탭활성.png": {
+      "sha256": "6ba1673f173e434ac5b2f96d33533725687dca2db4425554954e2bb9134c777e"
+    },
+    "profiles/JUS/templates/버튼_강화_아티팩트.png": {
+      "sha256": "40cc5980108e73a7aa274e07abef723b57e127f6b609d1c4605f91fb64fe7287"
+    },
+    "profiles/JUS/templates/버튼_강화_악세탭.png": {
+      "sha256": "9f89164c67d2c453ab14347467b5c53ede4132f3e9c285443b45654a4e8e9ce4"
+    },
+    "profiles/JUS/templates/버튼_강화_악세탭활성.png": {
+      "sha256": "65f818e964e0d86722367e7cf6fd7e8e2194e2f8813c6379aa50e97ce11a46ff"
+    },
+    "profiles/JUS/templates/버튼_거래소_물약탭.png": {
+      "sha256": "f9f3a42a52125c0f6bf289ea75430c6d103e90094d60322f0bfc7bb6cfc92b8a"
+    },
+    "profiles/JUS/templates/버튼_거래소_장비탭.png": {
+      "sha256": "1e642bf192ad78ac7883636a27e891d9ee15099b4b6f3dad6e6d0cfe5410158f"
+    },
+    "profiles/JUS/templates/버튼_거래소_재료탭.png": {
+      "sha256": "bb27b0174abe949b600858314454b338aa727e7086fe554ebcbb083590f5b4c2"
+    },
+    "profiles/JUS/templates/버튼_거래소_즉시판매.png": {
+      "sha256": "fc9f26c66f8c5355d235034374fa6e4df5d58f59c3f47adc44684e33efe01703"
+    },
+    "profiles/JUS/templates/버튼_거래소_판매_일괄정산.png": {
+      "sha256": "8f9ab556e8a3f6e4df1a30ab3f0002931a72d3195a08745d4499fa7614aa83c5"
+    },
+    "profiles/JUS/templates/버튼_거래소_판매등록.png": {
+      "sha256": "c5bac1b4ff9bdba4332ee7e0ad1f07cab03f64c36cab928ead799ac114bec32a"
+    },
+    "profiles/JUS/templates/버튼_거래소_판매등록탭.png": {
+      "sha256": "d5c4af0183d8f1522b096c37e675e15073e9df7ab83b58bb9ad10037e2a17505"
+    },
+    "profiles/JUS/templates/버튼_거래소_회수.png": {
+      "sha256": "55e3fb1319d32cbf06ced6d770b7acb2e0908f838226c2843eee757bbf1bc41e"
+    },
+    "profiles/JUS/templates/버튼_교단_공헌중.png": {
+      "sha256": "6026ca38f12ce1ce9a1f02e02db09270bdfc5f0043536a9f115594c2c86d6ad6"
+    },
+    "profiles/JUS/templates/버튼_교단_자동공헌.png": {
+      "sha256": "f7230ee189553be44316627bc2bbc4251dc7f69dd5f718a38b77a618b62dd86d"
+    },
+    "profiles/JUS/templates/버튼_기본매뉴_빨점_네모보상.png": {
+      "sha256": "e9765d951ef09e2f2131d722da569ae61a41beea3e83c4e0e475576785316beb"
+    },
+    "profiles/JUS/templates/버튼_기본매뉴_빨점_네모보상2.png": {
+      "sha256": "17677432281816932a88b1d455e8607df730b2e83b5c68aff5ed4451d4c61446"
+    },
+    "profiles/JUS/templates/버튼_기본매뉴_빨점_네모보상2_mask.png": {
+      "sha256": "31965f77971de30fc258e227ecb26b7dd7dabaa4049b460cec55434077dae4b3"
+    },
+    "profiles/JUS/templates/버튼_기본매뉴_빨점_네모보상_mask.png": {
+      "sha256": "0eb3a24562aa4f25ab9265c78ea013fb06d216c7365cdb1178e82c0506328d3e"
+    },
+    "profiles/JUS/templates/버튼_기본매뉴_캐시상점.png": {
+      "sha256": "c8646a496aa2a0b65a39dc1e2ba571734e4bfec65366fde98fc7d6e780dae6a9"
+    },
+    "profiles/JUS/templates/버튼_길드_골드기부.png": {
+      "sha256": "4f961b9be7305f9f0d963129d1e94c7d1d7fefe6fd128f218619b97bd9a9b3a7"
+    },
+    "profiles/JUS/templates/버튼_마을_잡화상인.png": {
+      "sha256": "f86640ebcc0f66983c0bd9158eccd0b7a8df33249f32795fcd450f55246ed4b7"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_가이드.png": {
+      "sha256": "f888f926e1e72bd4dbc098278801db3e74a87824689a62386d9bec81829abcb7"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_가이드1_건너띄기.png": {
+      "sha256": "af46f7a5952fd7b74d17db2134df565c271c5520874f1bd9990cce317d16a1e6"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_가이드_mask.png": {
+      "sha256": "d30b284268d482ce840f1e84ac861640b0ba644a8644c9e09d4bd1f356c3d595"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_가이드_완료.png": {
+      "sha256": "17a83aa0b4942a8f03c8e89aff8f001d39586a3e4ce3c0ad270685bee29817d7"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_가이드_완료_mask.png": {
+      "sha256": "1ee2ae77dc3f31e69dd8e18c1f224c4fe520db7e7a76ce1f88c53f18d70cff0d"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_강화_다중강화.png": {
+      "sha256": "57eb9b5084ad6aa67ae020e50d4717dfa02c9ca970f52e4f7491a1e997b5f5df"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_강화_다중강화1_버튼.png": {
+      "sha256": "15b162b9ddcc27c0ae7f14cb9bf76f71b7967f5c379f13719b1482c33f388408"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_강화_다중강화5_버튼.png": {
+      "sha256": "ba5bb5790b57f27c2c4983e66fdf64cb6d5dacc49cd62b462e630ced79f0db51"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_강화_실행.png": {
+      "sha256": "37c03b5d79ab1a5a9d85acdbc21b9e36c033a247028c7d7d5df4931366dbd000"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_공희탈.png": {
+      "sha256": "3ddb55e9361caacac6654003e5941fe58d6f577720e92b5ecb9cca9b92a186bd"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_순간이동확인.png": {
+      "sha256": "d83d6348fb5efd796190b6d964fac1240f862990166addbccb4f99f219976403"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_스킬북1.png": {
+      "sha256": "f635af2ec8720681220d8a4a91d8dd7389f3f428ff5aa523b54184c2baaf0902"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_스킬북1_사용.png": {
+      "sha256": "41ba7e77b7ed0bfa3bed8b0300241ddac83eb63bb2f1014eeea244df6a4085fc"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_스킬북1구매.png": {
+      "sha256": "5a0a1de8bcdc1a8574a3dce30b0f36097b15b4da00e9c6897694332cf7888d48"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_스킬북2_사용.png": {
+      "sha256": "70d2de23f3d377a28e979cdb9745730374eb202bb9872b68de7dc3780cb72412"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_스킬북2구매.png": {
+      "sha256": "edec69a78a0b1a4a8be67cbda52d0c1dea434da116c04a1bbea18a61857092ba"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_스킬북구매_구매.png": {
+      "sha256": "361b82081ed7431ef1cc54bcca5793eea088c9f684e8ae6d1f893ce27006409b"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_스킵.png": {
+      "sha256": "b0656d6828493c6726b4042c2fb5f79cbb573fa5695c2c782cbd3b81abf8ec96"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_스킵_mask.png": {
+      "sha256": "fa03a962af103640a0d2b939206562c92024bc8f05f508fb0fb7f9b8540cf549"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_아이템컬렉션.png": {
+      "sha256": "272d3daa36103c653a212c1c7376eb40c5ba681882f7415c27e12a12df079faf"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에테르.png": {
+      "sha256": "6f8f837b61bbc2785c5e57483fbf434cb2d6c1ae9810d51c010df4000258d8d6"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에테르저장.png": {
+      "sha256": "a650c6d87b7812b1e6d4ead1014df833ae37e8093c4a70cbe2121e388fe7ac63"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽10_시작.png": {
+      "sha256": "58d08140869cbe7e8c213fe4d2cf65dc4e6259319aae6da303c365447a7660a3"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽10_시작_mask.png": {
+      "sha256": "23cfbb99725646f4a569e753a6477db0eea1bb600099d6aedd01950d7750add5"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽11_시작.png": {
+      "sha256": "a05070d13fac4d095df29710b2b033a3c2ec1bfafad3eb96275e888c339e1beb"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽11_시작_mask.png": {
+      "sha256": "cfbdb7d5caaf4f63369e0b9aeec551db4487a07f10be15c619dced939cba7f14"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽13_시작.png": {
+      "sha256": "70dc247faa235030974a5ae15948cb3156d29befcc54b588bf0711471f7647ba"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽13_시작_mask.png": {
+      "sha256": "d697c16a815d1cdd856d837dc1073413c39ddbdf59145b300fd72fc745cc041e"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽14_시작.png": {
+      "sha256": "e44d1165b68a1d34b244183310dd00f142a215452689b9d660593e7acd8d10b0"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽14_시작_mask.png": {
+      "sha256": "6e9c602369d023cd183f78ed27762a9c6d643b9f9985a5e393b01a40c10dd4d5"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽16_2_시작.png": {
+      "sha256": "b94dcf89c3db5007f2d355219bbaf332bb82caa07a9a7c668b13e0e254d93062"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽16_2_시작_mask.png": {
+      "sha256": "6f568ff8e06cd158120a820b68a0316a5f574fe96f77c8bce80e5272e0fc7fcd"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽16_시작.png": {
+      "sha256": "a2dedaa57a76fe5e8c338b2c814334df8af94484397573f46536db7a0509d4af"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽16_시작_mask.png": {
+      "sha256": "933c0d4c79307c0456b6515b4a1f843d494beb2ec919b13b164020164be4122e"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽18_시작.png": {
+      "sha256": "cd530ca914650b570782fb9e53533949a669c9041b1718aa4e78cc11a3b9d735"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽18_시작_mask.png": {
+      "sha256": "1683ba7daca027a27584cc3b276058482218481d2419e80d48fc7fe60cc50826"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽19_시작.png": {
+      "sha256": "505a15bd08ab43a57ee6422b63d31065669bb1cca65c230eeaf837b1bcaa0507"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽19_시작_mask.png": {
+      "sha256": "0b71d5c365297e567462fa572030d16644feef7e0d8b794250028b77f0ef1098"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽1_시작.png": {
+      "sha256": "126bc15c8e3ebca8a7504a6fb10fb597386710bc8db7129dcd430e6b789864d8"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽1_시작_mask.png": {
+      "sha256": "fd6e8f5b1c25d9914bc7f9a8df6c24ef7fe6e489fa90fe551ee271a97fc78ea9"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽1_점프.png": {
+      "sha256": "e72c737d76ca625e8642e851b77c8e69ccb469967208ea37946818389f94178e"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽1_회피.png": {
+      "sha256": "3311399031ba0525cc9264dcffda640ecd53d22c992b9f178855a813e551383a"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽20_시작.png": {
+      "sha256": "456a52cd02ce8e98acd55ad5a75d9442645715a01951366559ebe72208992722"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽20_시작_mask.png": {
+      "sha256": "02017f5aaae82dc7acc0479f4f081c57c42fd83a628345b704d00af5ec5365e8"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽21_시작.png": {
+      "sha256": "fc06dbfbe5d5272b32ead0cfc952be34756ef70a7923281c85ee46ec8ee0d3f3"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽21_시작_mask.png": {
+      "sha256": "bf9a89a2a7ad0cf6a3223dc48d0883fd5910273be656560f9daa914e1a6c687b"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽28_시작.png": {
+      "sha256": "a109223e27d12da67ce064247ed4fff8e965a89b07aac6b1c8965b15aca94694"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽28_시작_mask.png": {
+      "sha256": "a4aff0d0c9f9316f31db729cf2101233edfc16b4f2824b3f5af289e7435b4551"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽29_시작.png": {
+      "sha256": "f729fea9fbef8b7be4b4be8cc3f4498658462aada643081b3eba8a54acb857ec"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽29_시작_mask.png": {
+      "sha256": "8e7f60c0c5ca8dc0253269f0fd9b4b368588345e5ec1a97fa8ff145f857cf21b"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽2_2.png": {
+      "sha256": "c1ecf9fa07f194353bfa8b29413a4da718afb4a3624e66883ecf9bcfaed9951d"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽2_2_mask.png": {
+      "sha256": "6afa01ecdf5e343db2a8c085abd4979dd6440f419e5f3fdd6637e777279b94b8"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽2_시작.png": {
+      "sha256": "2769e91d6049753de782a05187483de73395be0a2f3af99358898e761140e598"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽2_시작_mask.png": {
+      "sha256": "f7bddf0a1dfdbc260aca87303e3c14cbe253b9659b029ea5377deb5eef9d38a7"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽31_시작.png": {
+      "sha256": "73a21440486427bc642772ec8c16476821ef81a35b8c41d65040aa727c96e0e4"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽31_시작_mask.png": {
+      "sha256": "76328cb7caaa7af0ac64d8c8fda19f9862796e56e27a29e4cfec28ad97d82c50"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽32_시작.png": {
+      "sha256": "d6ef5bc161c249c1fca516439a57482fce6c47d58abbf7f838aaa72b968e483f"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽32_시작_mask.png": {
+      "sha256": "067402503b4fbdc6c1c2bb77869e4b164dac4357f304d69f584276ebca5856a4"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽36_시작.png": {
+      "sha256": "28659b22d6ebf0bcaae5f88075b8fd0862eba8a1c8cd4c01e39605080bb900ac"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽36_시작_mask.png": {
+      "sha256": "e60daa78fe72f191ac6b4bd280e4a2fcc8992daebe0587fc1ed70851dcd1238d"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽39_시작.png": {
+      "sha256": "babf8022805fdb052d1ebbc578e50ea674ec2552ec3c0071da532dbba54c276b"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽39_시작_mask.png": {
+      "sha256": "43dc4a048b768c968164ccabb0474b47efbb1650d79a2fc47d9020bf629941b8"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽3_시작.png": {
+      "sha256": "36d0355d72fe048d1041e5c33ed5636897744d04d3a1e8c20354241fded6e189"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽3_시작_mask.png": {
+      "sha256": "33d30e3a260ae206ed951e6039f888a3e2e722a86e0c2f54695473c245c0befe"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽41_시작.png": {
+      "sha256": "5eb612ed92a1be54141d014462c428df00d7966c61ec12331bd2f948d4ae8a08"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽41_시작_mask.png": {
+      "sha256": "09d754ef82fed0bade59a1a75a38e0519b5c27b5c4a792b432b8ad6c91a0b350"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽43_시작.png": {
+      "sha256": "186015199678340e612eb2591c5b2433396b241a227fc4ea1c84ac0c882d4cef"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽43_시작_mask.png": {
+      "sha256": "4bc432e358dc202e4b492c40e40199aec38b8dae9fd597d44403390def959a2c"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽44_시작.png": {
+      "sha256": "f77a2f485fd243553ccc1e548fe415abc0021c7d7ae3b44bb9ea60016a473189"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽44_시작_mask.png": {
+      "sha256": "ef588d7bd4fcf6af973df049e220ac0fa3c319adaef793ba49c20924ac2d85fc"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽47_시작.png": {
+      "sha256": "841508492b54039688c06195df2e9dcaff214fa64bd6d90ae3d0a4bac75e90ac"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽47_시작_mask.png": {
+      "sha256": "4868b34fa58b2dbef6c4fc61124ab85f46e3ac45630a37a5308d1b0ddd8d734b"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽48_시작.png": {
+      "sha256": "e1d271a70e26118629ee13e865c341a6d7873b7ca284e5a96babeed7fefc215e"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽48_시작_mask.png": {
+      "sha256": "dd2dde8bed20cb31374e1147721e031b2a17e4e1d4246ccdf36e842196238ee5"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽4_시작.png": {
+      "sha256": "7b4c6bfd7657e3ca6721f2a99993f88277cde56a8d21b80202c47494f9292a52"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽4_시작_mask.png": {
+      "sha256": "30cb8ff5afb15a04ea174e66dd78d1b59597e0889cb1f82d42e7af97ffd70110"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽57_시작.png": {
+      "sha256": "bbea93869ac46a46f97d4ed1e02c232380dce46e2ad67a9677b4b21c81403a44"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽57_시작_mask.png": {
+      "sha256": "8b1871b79510f3205664815a614cbd0c1be1e62888c773c2bd14a33570c02076"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽5_시작.png": {
+      "sha256": "f9e9d8c4a65b73fd62f59c3eded9aeb3b410a6b3beefedd76e3d2376bbf0f801"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽5_시작_mask.png": {
+      "sha256": "b404d76f2793471a75f45232ee33d71cf3278154bd2ead9a44378789a98da54e"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽6_시작.png": {
+      "sha256": "aa0146b31d220579faa8a202907a58154a17b21e68464a7c57116c797acbf160"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽6_시작_mask.png": {
+      "sha256": "a420b05f32eb65ad8ad716ab990470ff480cf34cb5ebe2f532667129e57f98e1"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽7_시작.png": {
+      "sha256": "5f159da0e382e8684e304209a97ba36e5e479d4cdaa35b5c2e70464c86255ca3"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽7_시작_mask.png": {
+      "sha256": "f54239768d046458018c5d409cd7a8ebde22481b7df9b550af7117e396edd496"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽8_시작.png": {
+      "sha256": "d02c18154ea931155573580663b0780a56c32bbcf90602a6e3da9c9813e4fc15"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽8_시작_mask.png": {
+      "sha256": "0dc6e069a25b8ea7e37764037378b32b7143d8f9b7cb4d34c695255a1da71a81"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽9_시작.png": {
+      "sha256": "c7ad7469a24f5f39d2081799b9f52d2fa93fb45983f1775659d665308b32c1d8"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽9_시작_mask.png": {
+      "sha256": "16e4eaa3a0126320ac1cb1b29916cddeb7882a3ae04669f76cb73b04c49cc843"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽순간이동.png": {
+      "sha256": "a1c53fedfb5669c61203d8400c11373ab88a081a3ee62b837798dfe832a27125"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_에픽순간이동_mask.png": {
+      "sha256": "73a8364ddf99ed2696e6a8193b484d7a9ecef04264d49a73afe4de527ee3c087"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_완료.png": {
+      "sha256": "1a34954a668f6ef6e3c41b83760c2dcd54b0868665b43236022ead85217ba555"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_완료2.png": {
+      "sha256": "9af2a81352ca8a435a11b2a2e35d3fc6dbac1540bd862bf3b7c80ce3fbfa109e"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_완료2_mask.png": {
+      "sha256": "3716f7b3a7b76bf3c5a2f4f877aac70f1154c36add24aae91c39098a3358978a"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_완료_mask.png": {
+      "sha256": "39be8f97c94fd90ef2074f88c1213304ece4d438772ed36d980d271078a6d16b"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_완료_에픽5전용.png": {
+      "sha256": "97b71a4438fc0789b420cdc178b08323a6035c90dd610513bf4729b97b40a8df"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_완료_에픽5전용_mask.png": {
+      "sha256": "4f5eb8a87be8eaa26d04affdd0d1cf71fa58a0acd0546a31707e73da999ec867"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_의상뽑기.png": {
+      "sha256": "3f8d1203d6532897d143140fd26783b717747ad65a452826d27f8fa85ed41110"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_인벤토리_장비착용.png": {
+      "sha256": "3987d97f94b265e969580e97d7b469d4e57b52d226af87f6f0f8f6c6f48aa777"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_인벤토리_장비착용_mask.png": {
+      "sha256": "dd9ed3ac00577b0775137a3f78d04da82d7b8a5b3e4f82b3f219d044e40449de"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_자동구매.png": {
+      "sha256": "7afec51d92ceabb8e0d884040d2f61b4264f8745417d4ab4cd2d60743cf21552"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_자동구매설정.png": {
+      "sha256": "852ee75c21cbe9fa0f59d2cbd795feb6ab3dbbd9cf5e8db7be3a0dfce81d3a5d"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_장착.png": {
+      "sha256": "709258abbba9dadde3555b623e3ec0381d746b95ef6e1d2515fc98ccdb2d0c07"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_전메_강화.png": {
+      "sha256": "39938d8b496282933b36720408cefb1165624eb22c14417d590c717b81d96404"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_전직_레인저.png": {
+      "sha256": "eaef6cdf9f45c1729e326433e7c155acb3f84e8337f1dff9d4a4302da7767446"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_전직완료버튼.png": {
+      "sha256": "faf898921d094e7f31a31094d06b44ab29c869724a31a4de5557b9634cfc67ac"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_지희탈.png": {
+      "sha256": "b2dcc4a3e78fccea3618fe2f5ec971b30cf2d786fde17fbe2a6db6ebf41af947"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_컷신_스킵.png": {
+      "sha256": "f33a34ea32a1717339a6ef7428dbc7caf3dfabaa158ae4f848083c49c5829b32"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_탈것뽑기.png": {
+      "sha256": "eec6cc452b5e1081da490aef08bc89f43be795a68447be0c3181b908e9e41edd"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_튜토_AUTO.png": {
+      "sha256": "d93ba7f380b5a4df63e0713b86980a87fbc200c44ed9da402516182877454628"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_튜토_공격.png": {
+      "sha256": "a2ee6cb03d43b269bd3bc3ac3e4797e2e89fa6feafbbcf1f385dbabf55972151"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_튜토_타겟전환.png": {
+      "sha256": "dc4029dbfa9473e87629c18c1e7dc410c7fa12c9239463acef1c66f173fc2c45"
+    },
+    "profiles/JUS/templates/버튼_메인퀘_희의.png": {
+      "sha256": "7e195586a5828289a83ff6d123844d2fc88107d924d44daff275cb2433ad0625"
+    },
+    "profiles/JUS/templates/버튼_무한의탑_실패.png": {
+      "sha256": "5e244b2e69a5dde34fbe9e5347284916cfe366eb6c94845610ef8869d22d3a57"
+    },
+    "profiles/JUS/templates/버튼_무한의탑_연속진행.png": {
+      "sha256": "324ade87f2925c4bc3175b2e847fc476c3806576cec15fcfaba6042579498996"
+    },
+    "profiles/JUS/templates/버튼_무한의탑_입장.png": {
+      "sha256": "f351bddb05f12b5e749766032820d75ab0e971bf3571995fb685ba514746e99f"
+    },
+    "profiles/JUS/templates/버튼_뽑기_나가기.png": {
+      "sha256": "688d8d335dc0a68ddcc4108d2304c1d469cc698d68dc6e2f76123be506d4299e"
+    },
+    "profiles/JUS/templates/버튼_사망부활.png": {
+      "sha256": "472bb33493598f6678be02518b0ff50bd722c672cd65e4f0d0f742945a920044"
+    },
+    "profiles/JUS/templates/버튼_사망부활_닫기.png": {
+      "sha256": "8e99ba732e0df4a0bfc2b3dc1dbcc35a6c63ef28446a4ec55534b070d9d8adf0"
+    },
+    "profiles/JUS/templates/버튼_사망부활_복구버튼.png": {
+      "sha256": "9dc06e4ca94d6f34e6cdb855ad29bd893d5a51331db9a450bdb9d70c1753763b"
+    },
+    "profiles/JUS/templates/버튼_사망부활_복구전체체크.png": {
+      "sha256": "aebea2f8d513f0e4b6c487c2e35ae9d2cd5e31a29a781bd9e6911a8f9f59e75a"
+    },
+    "profiles/JUS/templates/버튼_산과_인내의가지.png": {
+      "sha256": "e6cee27555cbe801701625c497f1b78589867f77151b196752a42d0b41658f81"
+    },
+    "profiles/JUS/templates/버튼_산과_자동성장.png": {
+      "sha256": "2cc2ec27d922988a8959cc9b4e48b9b6af0592589cdfc42b848f3d074c1c0fae"
+    },
+    "profiles/JUS/templates/버튼_산과_자동성장_실행.png": {
+      "sha256": "8b7d4227043d0d9389fb2ce2ad72106605d6f9f12e0d95eca770823e21de00e1"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_2_초원.png": {
+      "sha256": "4a88a8951660e62d78c03b36210ceaafdc2c14a6a20f69a98be5b7bbc6d1d2ff"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_3_멧돼지.png": {
+      "sha256": "18f1dc4ba18879ec1d8f3729875b5a56213a77e42b8d298e8a35f4b8e49a6f34"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_4_하피.png": {
+      "sha256": "4ee61f6a02119bfba687ac3da7a486acf94ac5bfa321eb58884c98ecd81d0b09"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_5_발이.png": {
+      "sha256": "acc2b547cb606fd62ec79579fde122497466f2648763bb68539f5fb2589d2b26"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_6_브금.png": {
+      "sha256": "ed9a2328b470762b09ad783e36a6d4833ee1cb86256abe9d64abb11974a15e86"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_7_은인.png": {
+      "sha256": "1677379ab8c9bd847329c5c85545b01e4a7a46993099d7fe9dbd768501278c04"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_8_신의뜻.png": {
+      "sha256": "62ef0e4fed8404e9984b2ceb1d98e848e35d67464a121e0a5a91b2a3b7b8f48f"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_돋보기.png": {
+      "sha256": "4efb19fc67aae6502a5755bf1242b6521fc3e922e997aa217d480f2cff0f3a5a"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_돋보기_mask.png": {
+      "sha256": "fd2c05f7627a42fe16a432be1ce317d99db9a3b27125f93341312cbe44502aa3"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_수락.png": {
+      "sha256": "ce4aac70f8f7e4f9ddec5f9ea31b3b1c1f8eedb90c1f40b3037382097148ce5d"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_순간이동.png": {
+      "sha256": "f189128aabd5683ca3c49cdb3246f0de7f7c321c33957783b0999c9381095993"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_순간이동_mask.png": {
+      "sha256": "d9ad6dced99b557ed194ec73f8ce833314750c58e0b7231119b8dbef69a65497"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_앞에마크.png": {
+      "sha256": "557f9e4d2045bda65b45a8e1704b9f82a1fda634388352278d737b540315293b"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_앞에마크_mask.png": {
+      "sha256": "e0f72ec8bd4275d4052e5628152a0924085785a324bebd0662e99e475fb4fc56"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_완료2.png": {
+      "sha256": "209d3d71a6bed740f5a79a38ae0e2edbea0b988d194b00b39448f602f716cd75"
+    },
+    "profiles/JUS/templates/버튼_서브퀘_완료2_mask.png": {
+      "sha256": "008f5618c4d65bfd50953ab9b44d767b9818b06930ed10130b558495554bc568"
+    },
+    "profiles/JUS/templates/버튼_소모품_1위기념선택.png": {
+      "sha256": "fb59ccf290fa3de024384439f07d6ccc4472c13431b454e334c83e0fbf41b972"
+    },
+    "profiles/JUS/templates/버튼_소모품_빛의탈선택.png": {
+      "sha256": "400a7327886b6a9326b14206913d0a818bfe590dd67620ed12516c1e93b038bf"
+    },
+    "profiles/JUS/templates/버튼_소모품_아티팩트선택.png": {
+      "sha256": "2dc0af8132c8cafa878f8a419e60e34456e8a53c451d25b1cd6aa64a230b5cf0"
+    },
+    "profiles/JUS/templates/버튼_소모품_영약의선택.png": {
+      "sha256": "d3783701eda28e7d2583c82af9e7561185e264ecef1094474f3ff82e7105e427"
+    },
+    "profiles/JUS/templates/버튼_소모품_의상11.png": {
+      "sha256": "c297fd1338d5fb27e9c728892d676f8810e8211cb408a277a75aba8481a58a63"
+    },
+    "profiles/JUS/templates/버튼_순간이동_수락.png": {
+      "sha256": "5a4ce6e0d1f5157e6d8d0178bc07b17070ccd900020e88fb8f56339c31092973"
+    },
+    "profiles/JUS/templates/버튼_순간이동_수락2.png": {
+      "sha256": "a9895b8b7e4672ef2526953c8d3ae031e8ccee161c6d7c2f3b3da06d96e8dfaa"
+    },
+    "profiles/JUS/templates/버튼_스킬2_AUTO.png": {
+      "sha256": "18e2f7ca7fa0cf0e857485caa985c9cf8a3eeba3e817a75dde625d4ea166769a"
+    },
+    "profiles/JUS/templates/버튼_스킬3_AUTO.png": {
+      "sha256": "6664e926bc660a7c94749e0fd34a9c0fc4c1f597708311317c660809e2ca70b2"
+    },
+    "profiles/JUS/templates/버튼_신탁_수락.png": {
+      "sha256": "bef3247b41f32df4b8c8726bf9bad20be0c8de31b6b72cdf2c10b4acaf010ef5"
+    },
+    "profiles/JUS/templates/버튼_신탁_순간이동.png": {
+      "sha256": "ac2c61d6b275c7e7b0b618d3020c8ab481605d0e252db37bd6b6ab06271abad0"
+    },
+    "profiles/JUS/templates/버튼_이이템컬렉션_수집품탭.png": {
+      "sha256": "635ef861084fcfe756d5205cc0ff8188ad96e9646dfb9f2e49c822081de63a9d"
+    },
+    "profiles/JUS/templates/버튼_인벤토리_일괄분해.png": {
+      "sha256": "e5e4f2449b94e3d4b2305918e484f119f2d7f1525dcd5310e5d5ed51a5bf34b1"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_강화체크.png": {
+      "sha256": "c038f739eecc9b964cb4a7a846d3112a5cd99f61376c855ceb2d099f077261ee"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_고급체크.png": {
+      "sha256": "0da5898d5b6faff0d746579ed930e5332f015eb92116c8d352211713920ab957"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_미다스체크.png": {
+      "sha256": "c038f739eecc9b964cb4a7a846d3112a5cd99f61376c855ceb2d099f077261ee"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_분해실행.png": {
+      "sha256": "293c1c44b9723f6260868946fc4f169278d2e7634c9274535c5409f26964e335"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_수집품체크.png": {
+      "sha256": "84039e87967384064f01e32e6a5d8fb2db6b7a4b15840311e9cb06a2f3b70ce6"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_스킬북체크.png": {
+      "sha256": "2e229e8b1cd8d79ee6ee92908511f741a8c5fde57ec19cefa33f0e8ffa27373c"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_일반체크.png": {
+      "sha256": "0da5898d5b6faff0d746579ed930e5332f015eb92116c8d352211713920ab957"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_장비체크.png": {
+      "sha256": "b50ee4a92075d6e55a6f37a40f5b5f554eadd419a36bc46b4b66a9860621ae1d"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_컬렉체크.png": {
+      "sha256": "08082c61a6c13ffff03f21d6c202d935d50aedef02537893aa3f65f2fb76a1a0"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_판매가능체크.png": {
+      "sha256": "08082c61a6c13ffff03f21d6c202d935d50aedef02537893aa3f65f2fb76a1a0"
+    },
+    "profiles/JUS/templates/버튼_일괄분해_희귀체크.png": {
+      "sha256": "effb692fed0d54dfa74587571f338a2f1126918dc8515dad4dd618b672986054"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴.png": {
+      "sha256": "52c7e17b863cb4817db172edbd0d19a40bd26769c961e2019a17b17e4d3bf316"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_강화.png": {
+      "sha256": "0cb54d7d3d1f62de6fac28b521fffa1cb7915acd80880a322b705bd1f739c07f"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_거래소.png": {
+      "sha256": "1ef5c4f904a897a0ec50d743d4b61cb7553145fe2d3f8d7e85ca97d36252a80b"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_교단.png": {
+      "sha256": "8e70bc40011724146bac424460ffd9da0cbed4d8738f30db5dd301fc73cae7d6"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_길드.png": {
+      "sha256": "bce8e8f262fb4e7818c51957122c6272c7c355232b2bbe62f5f7a48e7677139c"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_무한의탑.png": {
+      "sha256": "c4c427a82a9ef3b1b41ff18d72ee9158703acb5fd86088f74609fa67dd3c7d4f"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_산과.png": {
+      "sha256": "f98f418f795231f265886cead9cf2b547ddbe3a4491809d436b90bfe749f117c"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_산과_인내의가지.png": {
+      "sha256": "f4e2f82c63f019ca8b3986b8f9b9aeb72a7b11d5b2b06feb76ee9e2903ee4c78"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_산과_자동성장.png": {
+      "sha256": "fec1ccd68b4a953151e27d153cddcb6008f2a53f20788645d451b1e3da7340f9"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_신탁.png": {
+      "sha256": "5e877485c1d05f5928e483b6c1fb7874175d535d4ef6ede5b10f98b7548a65ff"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_에테리온.png": {
+      "sha256": "631b3cc6a05ad9ae5dd9018f08178ec09355c6719396f0e6553821a64f9a13a4"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_에테리온_개방.png": {
+      "sha256": "6e29c69917df68e86c0d8ac4af2e25785c6a110d0e96a3eb6ce1485db21a9f6c"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_에테리온_활성화.png": {
+      "sha256": "e65e3a1dcb7569116f3970275ac289961e567d932784d310414b8e09d902fe7e"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_의상.png": {
+      "sha256": "b012fc317889e7847a8da7e86603c97504aa11b28a02e3bd473fed858f338326"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_의상_비활성.png": {
+      "sha256": "7c99aa3715a1e955a8f2c4493497e5e9a5b875d3391eb52ad130c9d7a845a5aa"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_인벤토리.png": {
+      "sha256": "4a85f968e4a89e5cec443737ed3ad8320693195efa1cdac64e5eaf0e6aa5e3be"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_컬렉션.png": {
+      "sha256": "87034a074c260251752b802e31126a227c9d8e05f34aead9bae674d597313301"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_탈것.png": {
+      "sha256": "508421b43413dc4ae5ea2caffb4bca8b838a30fcebb96d9ef52a453319eb5767"
+    },
+    "profiles/JUS/templates/버튼_전체매뉴_환경설정.png": {
+      "sha256": "e21397351a84a99d431ebf24971920ee6e5f22c92897fdfed0ccd8c5ef8d2d71"
+    },
+    "profiles/JUS/templates/버튼_절전진입버튼.png": {
+      "sha256": "a0d6002cca8033ddf6033051ed807c0c80a1d93615b9b044fbd9d0948ebf2858"
+    },
+    "profiles/JUS/templates/버튼_지도_텔레포트.png": {
+      "sha256": "897ea9378897b79590716b915bdc47e2cfdff360adcb33880b128aad51c63c71"
+    },
+    "profiles/JUS/templates/버튼_캐시상점_일괄구매.png": {
+      "sha256": "2a054104017acf36087e8611c1325699a656a21b1309706e26d878f33a3867a8"
+    },
+    "profiles/JUS/templates/버튼_컬렉션_녹템.png": {
+      "sha256": "7bc32abffa60fc4c4e4bf0ed88bd5df58234e5ae9b568030fc0a4d138bcbd379"
+    },
+    "profiles/JUS/templates/버튼_컬렉션_녹템2.png": {
+      "sha256": "82c31aaef6d338dc53ffceca5b890d2a99623c3b8081e4df8cf5b881d76b4c3d"
+    },
+    "profiles/JUS/templates/버튼_컬렉션_등록실행.png": {
+      "sha256": "f32c8e0e7bbf74a6ffb3c52eeb50f0f6a05a68fd8aa82f9608843fb20ec58d22"
+    },
+    "profiles/JUS/templates/버튼_컬렉션_비활성.png": {
+      "sha256": "69686565b1ab195479e6ff13bdad0d1468a5c6b2597987ea0eb62cbbb4836bf3"
+    },
+    "profiles/JUS/templates/버튼_컬렉션_비활성2.png": {
+      "sha256": "69686565b1ab195479e6ff13bdad0d1468a5c6b2597987ea0eb62cbbb4836bf3"
+    },
+    "profiles/JUS/templates/버튼_컬렉션_장비.png": {
+      "sha256": "0139e33c25de36fb232681ee2fd24cd794b9b5c91c30c8b8f30f09d859fd7d8f"
+    },
+    "profiles/JUS/templates/버튼_컬렉션_즐겨찾기.png": {
+      "sha256": "cc644a39b316e0c14bdce98d6be3d8977309d4725ccc42fd04b86c74b285c6e5"
+    },
+    "profiles/JUS/templates/버튼_컬렉션_희귀체크활성.png": {
+      "sha256": "d9b40b078bc33b2718801a8204763ba49c8c07d4dcd2581af281618b1c74f63f"
+    },
+    "profiles/JUS/templates/버튼_컬렉션_흰템2.png": {
+      "sha256": "a9648648aea740676cc2ae179a5ddec4aca2df790759154d1d8efda93e1eb3a7"
+    },
+    "profiles/JUS/templates/버튼_컬렌션_흰템.png": {
+      "sha256": "ae20afa68f37a7be3d19b6e665472f131df665e7f3dcbd69ac43b108f60cec32"
+    },
+    "profiles/JUS/templates/버튼_환경설정_알림탭.png": {
+      "sha256": "9b56c228ee6430ebd07d4b1fd009299921129ed1020f7c2a04447761774a4493"
+    },
+    "profiles/JUS/templates/버튼_환경설정_푸시알림.png": {
+      "sha256": "6a2fbe102706f175119e90ed001e0a6fe120bd18d83d975a88af0a8c86cc8f8c"
+    },
+    "profiles/JUS/templates/버튼_환경설정_환경.png": {
+      "sha256": "490a922cc6d452946c18820a198ba37a0611f62cace214e52482bee65f5ff5cf"
+    },
+    "profiles/JUS/templates/버튼_환경설정_환경_카메라.png": {
+      "sha256": "3ca9d843946a74ad514b315cc006cf44b433d2559420ef2172c79bc5b9f2ef33"
+    },
+    "profiles/JUS/templates/범위_ocrtest.png": {
+      "sha256": "0d555c361dec7b2f4dcad1f03da5120e0171c372649122f6e06c0030b1746120"
+    },
+    "profiles/JUS/templates/범위_강화_강화실행범위.png": {
+      "sha256": "fb4d5f2518e1b4167bd83c86edbbef094e6bfb507037201804be9b5ad80be2af"
+    },
+    "profiles/JUS/templates/범위_거래소_인벤토리_OCR.png": {
+      "sha256": "c2777f97b3037ca6e9a13c2ab0c27061393e215767dbdb0eb9656d16cf2cc204"
+    },
+    "profiles/JUS/templates/범위_거래소_즉시판매범위.png": {
+      "sha256": "61a809195ecf47c5100f98036b67bcc1a96540ffe5a428e305aedb43bd76ae86"
+    },
+    "profiles/JUS/templates/범위_거래소_판매감지범위.png": {
+      "sha256": "43e7ab92e38a24f12df1ade57c865efc2a53097fc39775a80b609107c0cba880"
+    },
+    "profiles/JUS/templates/범위_거래소_판매개수.png": {
+      "sha256": "f027807dd49fb4b2ca20562170040712caa3e0c2bcef1bd83a2073c75878839c"
+    },
+    "profiles/JUS/templates/범위_거래소_판매등록버튼.png": {
+      "sha256": "71db7c142767037d80f95032511edf749d37066cfda17e6906e0eb77de6242b8"
+    },
+    "profiles/JUS/templates/범위_거래소_회수_범위.png": {
+      "sha256": "61d60c4169de27908205dbfd52c56e57ac7d1274a5573f3ec9d70a8987319520"
+    },
+    "profiles/JUS/templates/범위_기본매뉴_빨점_보상범위.png": {
+      "sha256": "aa1260d9143199e82edda8942515a1dd302ac80a045460321112ccb6b1113db4"
+    },
+    "profiles/JUS/templates/범위_기본매뉴_빨점_보상범위2.png": {
+      "sha256": "7058002d9e95c182dc274e3b8149465d495bcedce01e8d710d6283a84828dbe9"
+    },
+    "profiles/JUS/templates/범위_기본매뉴_빨점_보상범위_최종.png": {
+      "sha256": "95a4f6ceec4bbef6d67b2d500e1f86b319873d7db42aa04434271e7c888b6848"
+    },
+    "profiles/JUS/templates/범위_기본매뉴_포1_이벤트.png": {
+      "sha256": "2336524ac1a9d3c6ca0a9a921ab6f09fe1424cd7a6dd35c15e9476df2f67aa88"
+    },
+    "profiles/JUS/templates/범위_메인퀘_가이드_범위.png": {
+      "sha256": "5f308d2f30384222a5be94c72b6cbc6fe2c7a4d280c640bd1f40fa516983b9b3"
+    },
+    "profiles/JUS/templates/범위_메인퀘_완료범위.png": {
+      "sha256": "82f6d44b2e2a72bd89bb904518d7cd27939b7517839a8ba75cfe56fed9ce1e9c"
+    },
+    "profiles/JUS/templates/범위_메인퀘_인벤토리범위.png": {
+      "sha256": "0b9a80f3d40535a6e30828e786f4900414da4f88bfd33691de3c5624ac4b1c44"
+    },
+    "profiles/JUS/templates/범위_사망상태_범위.png": {
+      "sha256": "bfa70383ed5ea5b49ebf3ce8c1683c0fd13c27f0de6f30384e1b1233ccc1a6ce"
+    },
+    "profiles/JUS/templates/범위_서브퀘_검색범위.png": {
+      "sha256": "9d339015db36f2228d2c11393454052d31a8194188c66f3cb4243e16404f98a1"
+    },
+    "profiles/JUS/templates/범위_에픽감지범위.png": {
+      "sha256": "2cd4a8d0febab7744b4155c8d5cd2dd0f40db8da50388beb20bb3c24d0f1d09c"
+    },
+    "profiles/JUS/templates/범위_인벤토리_범위.png": {
+      "sha256": "b3c566288fd276f51a03136ade7c8d2bd9b2d1fa1dcc880e9d452b007ddd3853"
+    },
+    "profiles/JUS/templates/범위_전체매뉴리스트.png": {
+      "sha256": "8f033225dc0c43db97badafa62c9ede418249c2724a7ef1b35bb5cb2c118870a"
+    },
+    "profiles/JUS/templates/범위_컬렉션_범위.png": {
+      "sha256": "f063b5fcc838795234441a9fcc19a509cb4b08cc28519543972fef699f4aca72"
+    },
+    "profiles/JUS/templates/체크_ocrtest.png": {
+      "sha256": "cc0f4c849f393ce703b9c537e7009d3dfdc8235a077dbd6cb878e2856b14c136"
+    },
+    "profiles/JUS/templates/체크_v에픽2초록.png": {
+      "sha256": "654836ec503abc5e83decab155690d2858f87995803ae4d0c9ecd924183314fb"
+    },
+    "profiles/JUS/templates/체크_v에픽2초록_mask.png": {
+      "sha256": "cac1a81f7275ec536269a027e4f7e2f7399143a228320d810b8781a18ef29400"
+    },
+    "profiles/JUS/templates/체크_강화_E모양.png": {
+      "sha256": "b19e055b89a6e252b947929b391451ff2207ef32a6f150450cafb59f0be639d0"
+    },
+    "profiles/JUS/templates/체크_강화_빈슬롯.png": {
+      "sha256": "b48eb001ffc482f5183c618f7bbb1c0990204aed59a98254027faf73f116e69f"
+    },
+    "profiles/JUS/templates/체크_강화_인벤토리.png": {
+      "sha256": "db77ccb686365e8f455422a368a489ae6bde1ac7d01cfda6301ff244d5c1cfe5"
+    },
+    "profiles/JUS/templates/체크_거래소_마판액.png": {
+      "sha256": "3ccf32c00b99b7e0c18c187705967c71a00196874d137f745689e81f66d2797a"
+    },
+    "profiles/JUS/templates/체크_거래소_마판액_OCR.png": {
+      "sha256": "7c0c79d272703015cc08c4a9cfc7d22547c04de4ac03bc8530d2f6564f04d563"
+    },
+    "profiles/JUS/templates/체크_거래소_빈슬롯.png": {
+      "sha256": "fb2f9da4cb007aa3f9d2500a23eae06cbdff25b673b69b64e1672e1ebbd5ded0"
+    },
+    "profiles/JUS/templates/체크_거래소_오리하르콘.png": {
+      "sha256": "93d4e212c27fa0e45a12f36daabe5d2d19f9a461dd6ec76237b62b57d3057dfd"
+    },
+    "profiles/JUS/templates/체크_거래소_인벤토리.png": {
+      "sha256": "4595aa299d9a1942995b0ef0c83cf01487578055fd803e95e517f9d90371d2c8"
+    },
+    "profiles/JUS/templates/체크_거래소_진입확인.png": {
+      "sha256": "064dbc15ba4202207c05ed7cba9737c9a3ef14fb871c311aaac752fefcb27f50"
+    },
+    "profiles/JUS/templates/체크_거래소_최판등액.png": {
+      "sha256": "3d6d65eec7c2b439d5d42835d9129989dee88f398d8ac12a99749e30c5aad6a6"
+    },
+    "profiles/JUS/templates/체크_거래소_최판등액_OCR.png": {
+      "sha256": "f96b8a3ab6b58d647311689d635baed7effd70ce353bc05ff19755c9118ed24a"
+    },
+    "profiles/JUS/templates/체크_거래소_최판등액재료.png": {
+      "sha256": "ba30d44f165b8905886157021693472a372ecfe5ec844bb0184ce91e8d78bf00"
+    },
+    "profiles/JUS/templates/체크_거래소_최판등액재료_OCR.png": {
+      "sha256": "5bda999c0a9f7bd201215dead33eabe7d1d36e78b9ade4bd6a4509729c06879e"
+    },
+    "profiles/JUS/templates/체크_거래소_판매감지.png": {
+      "sha256": "c22fd132b567cdc8e19f92edb78f19c4d24c7991e9259e666aeb91b4f9d84e45"
+    },
+    "profiles/JUS/templates/체크_거래소_판매개수_OCR.png": {
+      "sha256": "a596cf4dec09de2491b386193edceabdcdf19a6f8307b058b5ea96a74b27d91a"
+    },
+    "profiles/JUS/templates/체크_메인퀘_튜토_기본이동.png": {
+      "sha256": "3648bd595cf865e41636d819bc69aa619f7ca06d1e706b767db732e5bd222d25"
+    },
+    "profiles/JUS/templates/체크_빨물체크.png": {
+      "sha256": "a63d219422cb7fedd0f1b3f7557255b113fff0270b842ee224f2925af99aa64f"
+    },
+    "profiles/JUS/templates/체크_빨물체크_없음.png": {
+      "sha256": "b47dbac7db8856f9e7d84853de79e5173add4d1581c7d32ce8cce65088a65071"
+    },
+    "profiles/JUS/templates/체크_사망.png": {
+      "sha256": "d462175057907557356c63530b63be9a57a42267fe1182a5c06bef84dee3ff24"
+    },
+    "profiles/JUS/templates/체크_사망상태_붉은이미지.png": {
+      "sha256": "67184dd154a04ece4411e08f3543a17da9167232c1f7b09d3d49f48de7b13aa7"
+    },
+    "profiles/JUS/templates/체크_사망상태_사망했습니다.png": {
+      "sha256": "82d553636a9ec0608923e8425fc5330c74bc3960ea77090a03eedbcf68e16d3f"
+    },
+    "profiles/JUS/templates/체크_스킬창.png": {
+      "sha256": "475116878692ee6910022ae17bc94620a13693a53b5c7ab833a23ed85fdff2b0"
+    },
+    "profiles/JUS/templates/체크_에픽41_무한의탑.png": {
+      "sha256": "f44baae069a8582ac531f0fc72526f4f6814d7b9223e6add1f801c93c198a407"
+    },
+    "profiles/JUS/templates/체크_에픽41_무한의탑_mask.png": {
+      "sha256": "484b7b4611f7915366569871e53c69e72bf3b71b5a12befa50b9bbdfa63ee69d"
+    },
+    "profiles/JUS/templates/체크_의상종류체크.png": {
+      "sha256": "44987605e6a8d303e63fd3a1c3314515e0b032a1a20d714099375846178d04c6"
+    },
+    "profiles/JUS/templates/체크_의상진입확인.png": {
+      "sha256": "e096918fab53e531944d73260f39f6cb06b5703e11bd46bf5e02824904fdca08"
+    },
+    "profiles/JUS/templates/체크_인벤토리.png": {
+      "sha256": "cb9e4fc2a68f25f3b6638dc3c7a3f47c2dfb26d4856b8b78cf51217e40190caf"
+    },
+    "profiles/JUS/templates/체크_절전상태.png": {
+      "sha256": "c5fec5b40ffb2c7ef1a1477602c10755df852968335979be8792fcd077e0c47c"
+    },
+    "profiles/JUS/templates/체크_퀘스트중.png": {
+      "sha256": "fe5450b2f6039e12ffb53ca8d2fb7608b2326c9dd3ed814f9385a70a694c3aa4"
+    },
+    "profiles/JUS/templates/템플릿_런처플레이.png": {
+      "sha256": "a5e94687f2cfd05ae31e6a61bb086d0d032dc4247705fd4c7759a6bf263ffcf5"
+    },
+    "profiles/JUS/templates/포인트_test222.png": {
+      "sha256": "d859720ed84e15771a684e72759c9b43d6cc7b320712ad3d15478d7d3f30cf87"
+    },
+    "profiles/JUS/templates/포인트_test222_mask.png": {
+      "sha256": "e23108d5421169e77f8873225e5866f300686d7972b88d773d3f678bee956285"
+    },
+    "profiles/JUS/templates/포인트_메인퀘_수집_일괄등록.png": {
+      "sha256": "d4311662e6edfe589ab2c5506d609f57e4e3af4fb0d464683dfc85558986ed01"
+    },
+    "profiles/JUS/templates/포인트_메인퀘_에픽27_2_시작.png": {
+      "sha256": "80caca5bba03b393779cd55b298d9d6e1920ad620b49feaba6016532462b629e"
+    },
+    "profiles/JUS/templates/포인트_메인퀘_에픽27_2_시작_mask.png": {
+      "sha256": "ac6823c8f3cc7ba643df20e726dfd2eda6f49d13e01bf8b31472db848a0d44fd"
+    },
+    "profiles/JUS/templates/포인트_메인퀘_에픽27_시작.png": {
+      "sha256": "872a9b9e5ee169423c43a2bc83489c90f436b8c87979118cc0f8283b6cb70ac8"
+    },
+    "profiles/JUS/templates/포인트_메인퀘_에픽27_시작_mask.png": {
+      "sha256": "b9fcff909b8186ae6e04b02c1c6aecabfbb092f53df3f38fc32ed5ca5499f261"
+    },
+    "profiles/JUS/templates/포인트_메인퀘_에픽33_2_시작.png": {
+      "sha256": "3189d7de54188a3c96f6bdfff7e2e6ca09196588ba6c68be392dfeae3144e7aa"
+    },
+    "profiles/JUS/templates/포인트_메인퀘_에픽33_2_시작_mask.png": {
+      "sha256": "baa1f9590e5f9520d06442ec7d46d6324a057391c923db9725e93bca515b243b"
+    },
+    "profiles/JUS/templates/포인트_메인퀘_에픽33_시작.png": {
+      "sha256": "8313b63c53f383d8b2ad77e8dddd6a9fbc283e0adc4f22bff2d82f7933d108f9"
+    },
+    "profiles/JUS/templates/포인트_메인퀘_에픽33_시작_mask.png": {
+      "sha256": "6b54fecde62aaa76342968673d5823b2cbbc10b2751fc336f40ed68feefe2915"
+    },
+    "profiles/JUS/templates/포인트_소모품_사전예약공중탈것.png": {
+      "sha256": "e8bdaf5d184163a967828b35986d77aac0818b68e07e1d5b02e4f8b81b80da63"
+    },
+    "profiles/JUS/templates/포인트_우편_계정.png": {
+      "sha256": "8b52cb419758eb7c60d6aad19d443b9fc8e2aeed0af54cd5d2cd008e3973f82a"
+    },
+    "profiles/JUS/templates/포인트_우편_모두받기.png": {
+      "sha256": "2d5e080844b12a4eac6fcb1e680701dfbd2422a4b792370021a87644927e8967"
+    },
+    "profiles/JUS/templates/포인트_전체매뉴_우편.png": {
+      "sha256": "ecb583635eed1e259bdf479913bf6bb029b878bb94a4016a53225ffeff082222"
+    }
+  }
+}
