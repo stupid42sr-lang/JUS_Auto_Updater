@@ -5,10 +5,16 @@
       "sha256": "cd52ff5250275b6e23a5a5766d392db561405e47fc52510e777317add64d9e35"
     },
     "profiles/JUS/roi.json": {
-      "sha256": "78f8fed29b9b129e2bbb233a52fa4981daac24df1417f6a5109724bb9ab60cd9"
+      "sha256": "30179cacbc8fbaba0f4f2a7fc0cd2142b955dba71f60c58b917a10c9ffa94cbb"
     },
     "profiles/JUS/templates/HP_Bar.png": {
       "sha256": "d4ead018157ead169c49e33a336994d79bf68131e60c1658b392212057d2a644"
+    },
+    "profiles/JUS/templates/HP_하피공격.png": {
+      "sha256": "860729f5820b9f4c2b5abc9b2314b5efef330266032bdbf66459647652d38f76"
+    },
+    "profiles/JUS/templates/HP_하피공격_mask.png": {
+      "sha256": "a96411d30347573bba291b10ee989d9039ec222bc9864bbc46556255ce41e33c"
     },
     "profiles/JUS/templates/버튼_AI_OFF.png": {
       "sha256": "26b0fe6e562f6df66ca7355b3dfd9b0d940d5289fbb54210a317869250e3361d"
@@ -341,10 +347,10 @@
       "sha256": "4868b34fa58b2dbef6c4fc61124ab85f46e3ac45630a37a5308d1b0ddd8d734b"
     },
     "profiles/JUS/templates/버튼_메인퀘_에픽48_시작.png": {
-      "sha256": "e1d271a70e26118629ee13e865c341a6d7873b7ca284e5a96babeed7fefc215e"
+      "sha256": "6d03345f3081d730a72290abce9df813c5d39e4af44dc016a2e88a0cf9bbcd37"
     },
     "profiles/JUS/templates/버튼_메인퀘_에픽48_시작_mask.png": {
-      "sha256": "dd2dde8bed20cb31374e1147721e031b2a17e4e1d4246ccdf36e842196238ee5"
+      "sha256": "49904c0a72cde40f2f36bc4b04990a4bb21b663c9be7f7537a77ea2e57456b0c"
     },
     "profiles/JUS/templates/버튼_메인퀘_에픽4_시작.png": {
       "sha256": "7b4c6bfd7657e3ca6721f2a99993f88277cde56a8d21b80202c47494f9292a52"
@@ -471,6 +477,9 @@
     },
     "profiles/JUS/templates/버튼_뽑기_나가기.png": {
       "sha256": "688d8d335dc0a68ddcc4108d2304c1d469cc698d68dc6e2f76123be506d4299e"
+    },
+    "profiles/JUS/templates/버튼_뽑기_재소환.png": {
+      "sha256": "7ae9df348eaea589bacb3b63a65624ed8151645abf2ef002198483d73607eabc"
     },
     "profiles/JUS/templates/버튼_사망부활.png": {
       "sha256": "472bb33493598f6678be02518b0ff50bd722c672cd65e4f0d0f742945a920044"
@@ -709,6 +718,12 @@
     "profiles/JUS/templates/버튼_컬렌션_흰템.png": {
       "sha256": "ae20afa68f37a7be3d19b6e665472f131df665e7f3dcbd69ac43b108f60cec32"
     },
+    "profiles/JUS/templates/버튼_하피_환경설정_N.png": {
+      "sha256": "e2602eb7737250eb54eb20e46bfabda3cf681994743082b0fecb6c3a6d118698"
+    },
+    "profiles/JUS/templates/버튼_하피_환경설정_활성화.png": {
+      "sha256": "dba5ff5777dbfb5eae6e339bf23cc131f03cf694d3c8e1f423c163bde68a9bef"
+    },
     "profiles/JUS/templates/버튼_환경설정_알림탭.png": {
       "sha256": "9b56c228ee6430ebd07d4b1fd009299921129ed1020f7c2a04447761774a4493"
     },
@@ -765,6 +780,9 @@
     },
     "profiles/JUS/templates/범위_메인퀘_인벤토리범위.png": {
       "sha256": "0b9a80f3d40535a6e30828e786f4900414da4f88bfd33691de3c5624ac4b1c44"
+    },
+    "profiles/JUS/templates/범위_뽑기_버튼범위.png": {
+      "sha256": "f316b15c83c104df864b170fbbbb43926d42129d54834e9dcd791460cd189155"
     },
     "profiles/JUS/templates/범위_사망상태_범위.png": {
       "sha256": "bfa70383ed5ea5b49ebf3ce8c1683c0fd13c27f0de6f30384e1b1233ccc1a6ce"
